@@ -1,0 +1,42 @@
+img{
+  width:700px !important;
+  height:150px !important;
+  padding:5%;
+  margin:6%;
+  
+}
+.street{
+  background-color:#F4A460;
+  border-radius:2px;
+}
+
+
+.cuisine{
+  background-color:#8FBC8F;
+  border-radius:2px;
+}
+.food{
+  border:2px solid black;
+  border-radius:5px;
+  margin:2%;
+  background-color:#E6E6FA;
+}
+body{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+}
+.about{
+  flex:1;
+}
+footer{
+  background-color:#B0E0E6;
+  height:100px;
+  margin-bottom:0;
+ 
+  text-align:center;
+  
+}
+  footer a{
+    text-decoration:underline;
+  }

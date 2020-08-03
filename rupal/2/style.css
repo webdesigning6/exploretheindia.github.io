@@ -1,0 +1,62 @@
+table{
+  border:2px solid black;
+
+}
+th{
+  background-color:#008B8B;
+}
+nav{
+ background-color:#ADD8E6;
+  padding:2px;
+  margin:4px;
+}
+h3{
+  margin-left:40%;
+  width: 200px;
+  height: 70px;
+  border-radius:6px;
+  position:relative;
+  text-align:center;
+  background-color:#7B68EE;
+  animation-name: example;
+  animation-duration: 4s;
+ 
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;  
+}
+
+@keyframes example {
+  0%   {background-color:#90EE90; left:0px; top:0px;}
+  25%  {background-color:#AFEEEE; left:200px; top:0px;}
+  50%  {background-color:#DDA0DD; left:200px; top:200px;}
+  75%  {background-color:#BC8F8F; left:0px; top:200px;}
+  100% {background-color:#7B68EE; left:0px; top:0px;}
+}
+
+  
+
+img{
+  width:600px !important;
+  height:150px !important;
+  padding:20px;
+ margin:20px;
+}
+body{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+}
+.about{
+  flex:1;
+}
+footer{
+  background-color:#B0E0E6;
+  height:100px;
+  margin-bottom:0;
+ 
+  text-align:center;
+  
+}
+  footer a{
+    text-decoration:underline;
+  }

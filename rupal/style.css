@@ -1,0 +1,49 @@
+#carouselExampleControls{
+  width:600px;
+height:400px;
+  text-align:center;
+  
+}
+img{
+  display:inline-block;
+  width:400px;
+  height:300px;
+  
+  margin-left:100px;
+  margin-top:40px;
+  border:5px solid black !important;
+ float:left;
+  padding:10px;
+  
+  
+}
+.about{
+  padding:2%;
+  display:block;
+  float:right;
+  background-color:#FFF8DC;
+  margin:5%;
+}
+body{
+  display:flex;
+  min-height:100vh;
+  flex-direction:column;
+}
+.about{
+  flex:1;
+}
+footer{
+  background-color:#B0E0E6;
+  height:100px;
+  margin-bottom:0;
+ 
+  text-align:center;
+  
+}
+  footer a{
+    text-decoration:underline;
+  }
+.india{
+  margin-bottom:5%;
+  margin-left:100px;
+}
